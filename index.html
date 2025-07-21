@@ -3,15 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>[Emmanuel] - Frontend Developer</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Product Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <section class="hero">
-    <h1>[Emmanuel]</h1>
-    <p>Frontend Developer passionate about building interactive and user-friendly web applications.</p>
-    <button id="view-projects-btn">View My Projects</button>
-  </section>
+  <button class="toggle-btn" id="themeToggle">Toggle Theme</button>
+
+  <div class="gallery">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x250" alt="Product 1" />
+      <div class="card-content">
+        <h3>Product 1</h3>
+        <p>This is a cool product.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x250" alt="Product 2" />
+      <div class="card-content">
+        <h3>Product 2</h3>
+        <p>This product is even cooler.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x250" alt="Product 3" />
+      <div class="card-content">
+        <h3>Product 3</h3>
+        <p>You need this product now.</p>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
